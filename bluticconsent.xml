@@ -6,7 +6,7 @@
     <copyright>Copyright (C) 2024 Blutic Team. All rights reserved.</copyright>
     <license>GPL v2 or later</license>
     <authorEmail>support@blutic.com</authorEmail>
-    <authorUrl>https://blutic.club/</authorUrl>
+    <authorUrl>https://blutic.com</authorUrl>
     <version>1.0.0</version>
     <description>Blutic Cookie Consent Banner Integration</description>
 
@@ -21,8 +21,10 @@
                     <option value="1">JYES</option>
                     <option value="0">JNO</option>
                 </field>
-                <field name="domain_id" type="text" label="Domain/Site ID" description="Your Domain ID provided by Cookie Manager" required="true" filter="string" validate="string" />
+                <field name="domain_id" type="text" label="Domain ID" description="Your Domain ID provided by Cookie Manager" required="true" filter="string" />
             </fieldset>
         </fields>
     </config>
+
+
 </extension>
